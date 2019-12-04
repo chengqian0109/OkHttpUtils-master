@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        OkHttpUtils.get().url("https://api.douban.com/v2/movie/top250?start=0&count=10")
+        OkHttpUtils.get().url("https://www.baidu.com")
                 .build()
                 .execute(new StringCallback() {
                     @Override
